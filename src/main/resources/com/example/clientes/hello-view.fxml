@@ -33,7 +33,7 @@
             </Label>
          </children>
       </VBox>
-      <VBox layoutX="194.0" prefHeight="158.0" prefWidth="194.0" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="497.0">
+      <VBox layoutX="194.0" prefHeight="158.0" prefWidth="194.0">
          <children>
             <TextField fx:id="txtNombre">
                <VBox.margin>
@@ -81,7 +81,7 @@
          </children>
       </HBox>
       <VBox layoutX="395.0" prefHeight="158.0" prefWidth="154.0" AnchorPane.leftAnchor="395.0" AnchorPane.rightAnchor="336.0" />
-      <TableView fx:id="tabla" layoutX="26.0" layoutY="148.0" prefHeight="236.0" prefWidth="838.0" AnchorPane.leftAnchor="26.0" AnchorPane.rightAnchor="21.0">
+      <TableView fx:id="tabla" layoutX="24.0" layoutY="158.0" prefHeight="236.0" prefWidth="838.0" AnchorPane.bottomAnchor="106.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="158.0">
         <columns>
           <TableColumn prefWidth="75.0" text="Nombre" />
           <TableColumn prefWidth="75.0" text="Codigo" />
