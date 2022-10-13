@@ -15,6 +15,7 @@ public class HelloApplication extends Application {
         stage.setTitle("Clientes");
         stage.setMinHeight(500);
         stage.setMinWidth(885);
+        //hola
         stage.setScene(scene);
         stage.show();
     }
